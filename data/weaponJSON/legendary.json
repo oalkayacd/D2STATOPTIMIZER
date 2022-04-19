@@ -240,8 +240,7 @@
                         "Minor Headshot Damage": 2657
                     }
                 ]
-            }
-        },
+            },
             "Bow":{
                 "Archetypes":[
                     {
@@ -261,7 +260,8 @@
                         "Minor Headshot Damage": 5550
                     }
                 ]
-            },
+            }
+        },
         "Special": { 
         },
         "Heavy": {     
