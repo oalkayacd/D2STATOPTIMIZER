@@ -9,7 +9,8 @@
                         "Boss Bodyshot Damage":  485,
                         "Major Bodyshot Damage": 563,
                         "Minor Bodyshot Damage": 563,
-                        "Minor Headshot Damage": 900
+                        "Minor Headshot Damage": 900,
+                        "Magsize":30
                     },
                     {
                         "Archetype": "Omolon Adaptive",
@@ -17,7 +18,8 @@
                         "Boss Bodyshot Damage":  485,
                         "Major Bodyshot Damage": 563,
                         "Minor Bodyshot Damage": 563,
-                        "Minor Headshot Damage": 900
+                        "Minor Headshot Damage": 900,
+                        "Magsize":27
                     },
                     {
                         "Archetype": "Rapid Fire",
@@ -25,7 +27,8 @@
                         "Boss Bodyshot Damage":  606,
                         "Major Bodyshot Damage": 704,
                         "Minor Bodyshot Damage": 704,
-                        "Minor Headshot Damage": 987
+                        "Minor Headshot Damage": 987,
+                        "Magsize":15
                     },
                     {
                         "Archetype": "Lightweight",
@@ -33,7 +36,8 @@
                         "Boss Bodyshot Damage":  751,
                         "Major Bodyshot Damage": 873,
                         "Minor Bodyshot Damage": 873,
-                        "Minor Headshot Damage": 1223
+                        "Minor Headshot Damage": 1223,
+                        "Magsize":15
                     },
                     {
                         "Archetype": "Aggressive",
@@ -41,7 +45,8 @@
                         "Boss Bodyshot Damage":  776,
                         "Major Bodyshot Damage": 901,
                         "Minor Bodyshot Damage": 901,
-                        "Minor Headshot Damage": 1263
+                        "Minor Headshot Damage": 1263,
+                        "Magsize":28
                     },
                     {
                         "Archetype": "Adaptive (Single-Shot)",
@@ -49,7 +54,8 @@
                         "Boss Bodyshot Damage":  873,
                         "Major Bodyshot Damage": 1013,
                         "Minor Bodyshot Damage": 1013,
-                        "Minor Headshot Damage": 1421
+                        "Minor Headshot Damage": 1421,
+                        "Magsize":15
                     },
                     {
                         "Archetype": "Precision",
@@ -57,7 +63,8 @@
                         "Boss Bodyshot Damage":  969,
                         "Major Bodyshot Damage": 1126,
                         "Minor Bodyshot Damage": 1126,
-                        "Minor Headshot Damage": 1578
+                        "Minor Headshot Damage": 1578,
+                        "Magsize":12
                     }
                 ]
             },
@@ -69,7 +76,8 @@
                         "Boss Bodyshot Damage":  263,
                         "Major Bodyshot Damage": 327,
                         "Minor Bodyshot Damage": 327,
-                        "Minor Headshot Damage": 541
+                        "Minor Headshot Damage": 541,
+                        "Magsize":36
                     },
                     {
                         "Archetype": "Adaptive",
@@ -77,7 +85,8 @@
                         "Boss Bodyshot Damage":  287,
                         "Major Bodyshot Damage": 357,
                         "Minor Bodyshot Damage": 357,
-                        "Minor Headshot Damage": 479
+                        "Minor Headshot Damage": 479,
+                        "Magsize":33
                     },
                     {
                         "Archetype": "Aggressive",
@@ -85,7 +94,8 @@
                         "Boss Bodyshot Damage":  359,
                         "Major Bodyshot Damage": 446,
                         "Minor Bodyshot Damage": 446,
-                        "Minor Headshot Damage": 643
+                        "Minor Headshot Damage": 643,
+                        "Magsize":29
                     },
                     {
                         "Archetype": "Precision",
@@ -93,7 +103,8 @@
                         "Boss Bodyshot Damage":  383,
                         "Major Bodyshot Damage": 476,
                         "Minor Bodyshot Damage": 476,
-                        "Minor Headshot Damage": 667
+                        "Minor Headshot Damage": 667,
+                        "Magsize":26
                     }
                 ]
             },
@@ -105,7 +116,8 @@
                         "Boss Bodyshot Damage":  242,
                         "Major Bodyshot Damage": 273,
                         "Minor Bodyshot Damage": 273,
-                        "Minor Headshot Damage": 409
+                        "Minor Headshot Damage": 409,
+                        "Magsize":53
                     },
                     {
                         "Archetype": "Adaptive",
@@ -113,7 +125,8 @@
                         "Boss Bodyshot Damage":  256,
                         "Major Bodyshot Damage": 290,
                         "Minor Bodyshot Damage": 290,
-                        "Minor Headshot Damage": 469
+                        "Minor Headshot Damage": 469,
+                        "Magsize":43
                     },
                     {
                         "Archetype": "Precision",
@@ -121,7 +134,8 @@
                         "Boss Bodyshot Damage":  324,
                         "Major Bodyshot Damage": 366,
                         "Minor Bodyshot Damage": 366,
-                        "Minor Headshot Damage": 585
+                        "Minor Headshot Damage": 585,
+                        "Magsize":32
                     },
                     {
                         "Archetype": "High Impact",
@@ -129,7 +143,8 @@
                         "Boss Bodyshot Damage":  396,
                         "Major Bodyshot Damage": 447,
                         "Minor Bodyshot Damage": 447,
-                        "Minor Headshot Damage": 715
+                        "Minor Headshot Damage": 715,
+                        "Magsize":32
                     }
                 ]
             },
@@ -141,7 +156,8 @@
                         "Boss Bodyshot Damage":  219,
                         "Major Bodyshot Damage": 230,
                         "Minor Bodyshot Damage": 325,
-                        "Minor Headshot Damage": 552
+                        "Minor Headshot Damage": 552,
+                        "Magsize":42
                     },
                     {
                         "Archetype": "Lightweight",
@@ -149,7 +165,8 @@
                         "Boss Bodyshot Damage":  235,
                         "Major Bodyshot Damage": 247,
                         "Minor Bodyshot Damage": 349,
-                        "Minor Headshot Damage": 578
+                        "Minor Headshot Damage": 578,
+                        "Magsize":33
                     },
                     {
                         "Archetype": "Aggressive",
@@ -157,7 +174,8 @@
                         "Boss Bodyshot Damage":  243,
                         "Major Bodyshot Damage": 255,
                         "Minor Bodyshot Damage": 360,
-                        "Minor Headshot Damage": 610
+                        "Minor Headshot Damage": 610,
+                        "Magsize":40
                     },
                     {
                         "Archetype": "Adaptive",
@@ -165,7 +183,8 @@
                         "Boss Bodyshot Damage":  298,
                         "Major Bodyshot Damage": 312,
                         "Minor Bodyshot Damage": 442,
-                        "Minor Headshot Damage": 705
+                        "Minor Headshot Damage": 705,
+                        "Magsize":39
                     },
                     {
                         "Archetype": "High Impact",
@@ -173,7 +192,8 @@
                         "Boss Bodyshot Damage":  344,
                         "Major Bodyshot Damage": 361,
                         "Minor Bodyshot Damage": 511,
-                        "Minor Headshot Damage": 816
+                        "Minor Headshot Damage": 816,
+                        "Magsize":27
                     }
                 ]
             },
@@ -185,7 +205,8 @@
                         "Boss Bodyshot Damage":  559,
                         "Major Bodyshot Damage": 559,
                         "Minor Bodyshot Damage": 742,
-                        "Minor Headshot Damage": 1258
+                        "Minor Headshot Damage": 1258,
+                        "Magsize":15
                     },
                     {
                         "Archetype": "Lightweight",
@@ -193,7 +214,8 @@
                         "Boss Bodyshot Damage":  620,
                         "Major Bodyshot Damage": 620,
                         "Minor Bodyshot Damage": 823,
-                        "Minor Headshot Damage": 1443
+                        "Minor Headshot Damage": 1443,
+                        "Magsize":16
                     },
                     {
                         "Archetype": "Precision",
@@ -201,7 +223,8 @@
                         "Boss Bodyshot Damage":  691,
                         "Major Bodyshot Damage": 691,
                         "Minor Bodyshot Damage": 917,
-                        "Minor Headshot Damage": 1466
+                        "Minor Headshot Damage": 1466,
+                        "Magsize":16
                     },
                     {
                         "Archetype": "High Impact",
@@ -209,7 +232,8 @@
                         "Boss Bodyshot Damage":  777,
                         "Major Bodyshot Damage": 777,
                         "Minor Bodyshot Damage": 1442,
-                        "Minor Headshot Damage": 2531
+                        "Minor Headshot Damage": 2531,
+                        "Magsize":14
                     }
                 ]
             },
@@ -221,7 +245,8 @@
                         "Boss Bodyshot Damage":  773,
                         "Major Bodyshot Damage": 832,
                         "Minor Bodyshot Damage": 1264,
-                        "Minor Headshot Damage": 1896
+                        "Minor Headshot Damage": 1896,
+                        "Magsize":12
                     },
                     {
                         "Archetype": "Adaptive",
@@ -229,7 +254,8 @@
                         "Boss Bodyshot Damage":  945,
                         "Major Bodyshot Damage": 1018,
                         "Minor Bodyshot Damage": 1547,
-                        "Minor Headshot Damage": 2320
+                        "Minor Headshot Damage": 2320,
+                        "Magsize":10
                     },
                     {
                         "Archetype": "Aggressive",
@@ -237,7 +263,8 @@
                         "Boss Bodyshot Damage":  1016,
                         "Major Bodyshot Damage": 1094,
                         "Minor Bodyshot Damage": 1663,
-                        "Minor Headshot Damage": 2657
+                        "Minor Headshot Damage": 2657,
+                        "Magsize":9
                     }
                 ]
             },
@@ -249,7 +276,8 @@
                         "Boss Bodyshot Damage":  1955,
                         "Major Bodyshot Damage": 2476,
                         "Minor Bodyshot Damage": 3257,
-                        "Minor Headshot Damage": 5205
+                        "Minor Headshot Damage": 5205,
+                        "Magsize":1
                     },
                     {
                         "Archetype": "Precision",
@@ -257,7 +285,8 @@
                         "Boss Bodyshot Damage":  2220,
                         "Major Bodyshot Damage": 2812,
                         "Minor Bodyshot Damage": 3700,
-                        "Minor Headshot Damage": 5550
+                        "Minor Headshot Damage": 5550,
+                        "Magsize":1
                     }
                 ]
             }
