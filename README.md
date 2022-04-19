@@ -8,3 +8,6 @@
 
 ## RDS numbers modCheck?
 - Reload Duration Scale (RDS) numbers currently in use are supplied from https://www.reddit.com/r/CruciblePlaybook/comments/igc6kq/massive_breakdown_of_reload_speed_including/. Any missing RDS's can be set manually in config, based on estimates. RDSCaps assume 100 handling.
+
+## Time for Ammo
+- Time until the ammo count updates during the reload. Assume 1.0 for shotguns and 0.9 for bows.

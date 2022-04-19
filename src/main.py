@@ -23,6 +23,9 @@ def main():
     if(reload_stat < 10):
         reload_stat = 10
 
+    # Temporary print for indexing
+    print("TYPE // ARCHETYPE // RPM // CRIT_MULT // MINOR_BODY // MINOR_HEAD // MAJOR_BODY // MAJOR_HEAD // BOSS_BODY // BOSS_HEAD // RELOAD // RELOAD_CAP // TIME_FOR_AMMO // TIME_FOR_AMMO_CAP")
+
     # Primary Weapons
     # Iterate through weapon types
     for weapon_type in legendary_weapon_damage_data.get('Primary'):
@@ -33,6 +36,7 @@ def main():
         reload_b = reload_data['Primary'][weapon_type].get('b')
         reload_c = reload_data['Primary'][weapon_type].get('c')
         RDSCap = reload_data['Primary'][weapon_type].get('RDScap')
+        TimeForAmmo = reload_data['Primary'][weapon_type].get('TimeForAmmo')
 
         # Check for missing RDSCap values, use default from config if none found
         if(RDSCap == None):
@@ -71,14 +75,16 @@ def main():
             major_head  = major_body * hs_mult
 
             # Add bodyshot and headshot numbers for minor, major, boss
-            table_row.append(str(minor_body))
-            table_row.append(str(minor_head))
-            table_row.append(str(major_body))
-            table_row.append(str(major_head))
-            table_row.append(str(boss_body))
-            table_row.append(str(boss_head))
-            table_row.append(str(reload_in_s))
-            table_row.append(str(reload_cap_in_s))
+            table_row.append(str("%.3f" % round(minor_body, 3)))
+            table_row.append(str("%.3f" % round(minor_head, 3)))
+            table_row.append(str("%.3f" % round(major_body, 3)))
+            table_row.append(str("%.3f" % round(major_head, 3)))
+            table_row.append(str("%.3f" % round(boss_body, 3)))
+            table_row.append(str("%.3f" % round(boss_head, 3)))
+            table_row.append(str("%.3f" % round(reload_in_s, 3)))
+            table_row.append(str("%.3f" % round(reload_cap_in_s, 3)))
+            table_row.append(str("%.3f" % round(reload_in_s * TimeForAmmo, 3)))
+            table_row.append(str("%.3f" % round(reload_cap_in_s * TimeForAmmo, 3)))       
 
             print(table_row)
             

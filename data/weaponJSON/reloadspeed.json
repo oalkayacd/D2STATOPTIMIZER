@@ -4,43 +4,50 @@
             "a": 0.00002942,
             "b": -0.014428,
             "c": 2.29,
-            "RDScap": 0.63
+            "RDScap": 0.63,
+            "TimeForAmmo": 0.615
         },
         "SMG":{
             "a": 0.00007514,
             "b": -0.022763,
             "c": 2.85,
-            "RDScap": 0.725
+            "RDScap": 0.725,
+            "TimeForAmmo": 0.485
         },
         "Auto Rifle":{
             "a": 0.00010564,
             "b": -0.029004,
             "c": 3.09,
-            "RDScap": 0.7
+            "RDScap": 0.7,
+            "TimeForAmmo": 0.565
         },
         "Pulse Rifle":{
             "a": 0.00011435,
             "b": -0.030829,
             "c": 3.22,
-            "RDScap": 0.69
+            "RDScap": 0.69,
+            "TimeForAmmo": 0.775
         },
         "Scout Rifle":{
             "a": 0.00012706,
             "b": -0.033307,
             "c": 3.44,
-            "RDScap": 0.68
+            "RDScap": 0.68,
+            "TimeForAmmo": 0.482
         },
         "Hand Cannon":{
             "a": 0.00015928,
             "b": -0.043624,
             "c": 4.62,
-            "RDScap": 0.78
+            "RDScap": 0.78,
+            "TimeForAmmo": 0.715
         },
         "Bow":{
             "a": 0.00008186,
             "b": -0.023715,
             "c": 2.90,
-            "RDScap": null
+            "RDScap": null,
+            "TimeForAmmo": 0.9
         }
     },
     "Special": {
@@ -48,25 +55,29 @@
             "a": 0.00007907,
             "b": -0.017328,
             "c": 1.42,
-            "RDScap": 0.35
+            "RDScap": 0.35,
+            "TimeForAmmo": 1.0
         },
         "Fusion Rifle":{
             "a": 0.00007596,
             "b": -0.023525,
             "c": 3.06,
-            "RDScap": 0.73	
+            "RDScap": 0.73,
+            "TimeForAmmo": 0.655
         },
         "Sniper Rifle":{
             "a": 0.00008327,
             "b": -0.027392,
             "c": 4.10,
-            "RDScap": 0.79
+            "RDScap": 0.79,
+            "TimeForAmmo": 0.319
         },
         "Grenade Launcher":{
             "a": 0.00008941,
             "b": -0.025836,
             "c": 3.49,
-            "RDScap": 0.83
+            "RDScap": 0.83,
+            "TimeForAmmo": 0.665
         }
     },
     "Heavy": {
@@ -74,25 +85,29 @@
             "a": 0.00009324,
             "b": -0.029526,
             "c": 4.41,
-            "RDScap": 0.82
+            "RDScap": 0.82,
+            "TimeForAmmo": 0.628
         },
         "Linear Fusion":{
             "a": 0.00007265,
             "b": -0.023662,
             "c": 3.10,
-            "RDScap": 0.81	
+            "RDScap": 0.81,
+            "TimeForAmmo": 0.565
         },
         "Rocket Launcher":{
             "a": 0.00012834,
             "b": -0.030575,
             "c": 4.38,
-            "RDScap": 0.81	
+            "RDScap": 0.81,
+            "TimeForAmmo": 0.565
         },
         "Machine Gun":{
             "a": 0.00011177,
             "b": -0.036215,
             "c": 6.47,
-            "RDScap": 0.35
+            "RDScap": 0.35,
+            "TimeForAmmo": 0.661
         }
     }
 }
