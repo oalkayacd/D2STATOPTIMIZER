@@ -6,4 +6,4 @@ def readJSON(filepath):
     return wep_data    
 
 def calcReload(a, b, c, x):
-    return ((a*(x^2)) + (b*x) + c)
+    return ((a*(x**2)) + (b*x) + c)
