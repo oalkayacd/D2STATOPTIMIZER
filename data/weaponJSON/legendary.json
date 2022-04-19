@@ -1,0 +1,270 @@
+{
+    "Weapons": {
+        "Primary": {
+            "Sidearm":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Adaptive (3-Burst)",
+                        "Firerate": 491,
+                        "Boss Bodyshot Damage":  485,
+                        "Major Bodyshot Damage": 563,
+                        "Minor Bodyshot Damage": 563,
+                        "Minor Headshot Damage": 900
+                    },
+                    {
+                        "Archetype": "Omolon Adaptive",
+                        "Firerate": 491,
+                        "Boss Bodyshot Damage":  485,
+                        "Major Bodyshot Damage": 563,
+                        "Minor Bodyshot Damage": 563,
+                        "Minor Headshot Damage": 900
+                    },
+                    {
+                        "Archetype": "Rapid Fire",
+                        "Firerate": 450,
+                        "Boss Bodyshot Damage":  606,
+                        "Major Bodyshot Damage": 704,
+                        "Minor Bodyshot Damage": 704,
+                        "Minor Headshot Damage": 987
+                    },
+                    {
+                        "Archetype": "Lightweight",
+                        "Firerate": 360,
+                        "Boss Bodyshot Damage":  751,
+                        "Major Bodyshot Damage": 873,
+                        "Minor Bodyshot Damage": 873,
+                        "Minor Headshot Damage": 1223
+                    },
+                    {
+                        "Archetype": "Aggressive",
+                        "Firerate": 325,
+                        "Boss Bodyshot Damage":  776,
+                        "Major Bodyshot Damage": 901,
+                        "Minor Bodyshot Damage": 901,
+                        "Minor Headshot Damage": 1263
+                    },
+                    {
+                        "Archetype": "Adaptive (Single-Shot)",
+                        "Firerate": 300,
+                        "Boss Bodyshot Damage":  873,
+                        "Major Bodyshot Damage": 1013,
+                        "Minor Bodyshot Damage": 1013,
+                        "Minor Headshot Damage": 1421
+                    },
+                    {
+                        "Archetype": "Precision",
+                        "Firerate": 260,
+                        "Boss Bodyshot Damage":  969,
+                        "Major Bodyshot Damage": 1126,
+                        "Minor Bodyshot Damage": 1126,
+                        "Minor Headshot Damage": 1578
+                    }
+                ]
+            },
+            "SMG":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Lightweight",
+                        "Firerate": 900,
+                        "Boss Bodyshot Damage":  263,
+                        "Major Bodyshot Damage": 327,
+                        "Minor Bodyshot Damage": 327,
+                        "Minor Headshot Damage": 541
+                    },
+                    {
+                        "Archetype": "Adaptive",
+                        "Firerate": 900,
+                        "Boss Bodyshot Damage":  287,
+                        "Major Bodyshot Damage": 357,
+                        "Minor Bodyshot Damage": 357,
+                        "Minor Headshot Damage": 479
+                    },
+                    {
+                        "Archetype": "Aggressive",
+                        "Firerate": 750,
+                        "Boss Bodyshot Damage":  359,
+                        "Major Bodyshot Damage": 446,
+                        "Minor Bodyshot Damage": 446,
+                        "Minor Headshot Damage": 643
+                    },
+                    {
+                        "Archetype": "Precision",
+                        "Firerate": 600,
+                        "Boss Bodyshot Damage":  383,
+                        "Major Bodyshot Damage": 476,
+                        "Minor Bodyshot Damage": 476,
+                        "Minor Headshot Damage": 667
+                    }
+                ]
+            },
+            "Auto Rifle":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Rapid Fire",
+                        "Firerate": 720,
+                        "Boss Bodyshot Damage":  242,
+                        "Major Bodyshot Damage": 273,
+                        "Minor Bodyshot Damage": 273,
+                        "Minor Headshot Damage": 409
+                    },
+                    {
+                        "Archetype": "Adaptive",
+                        "Firerate": 600,
+                        "Boss Bodyshot Damage":  256,
+                        "Major Bodyshot Damage": 290,
+                        "Minor Bodyshot Damage": 290,
+                        "Minor Headshot Damage": 469
+                    },
+                    {
+                        "Archetype": "Precision",
+                        "Firerate": 450,
+                        "Boss Bodyshot Damage":  324,
+                        "Major Bodyshot Damage": 366,
+                        "Minor Bodyshot Damage": 366,
+                        "Minor Headshot Damage": 585
+                    },
+                    {
+                        "Archetype": "High Impact",
+                        "Firerate": 360,
+                        "Boss Bodyshot Damage":  396,
+                        "Major Bodyshot Damage": 447,
+                        "Minor Bodyshot Damage": 447,
+                        "Minor Headshot Damage": 715
+                    }
+                ]
+            },
+            "Pulse Rifle":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Rapid Fire",
+                        "Firerate": 540,
+                        "Boss Bodyshot Damage":  219,
+                        "Major Bodyshot Damage": 230,
+                        "Minor Bodyshot Damage": 325,
+                        "Minor Headshot Damage": 552
+                    },
+                    {
+                        "Archetype": "Lightweight",
+                        "Firerate": 450,
+                        "Boss Bodyshot Damage":  235,
+                        "Major Bodyshot Damage": 247,
+                        "Minor Bodyshot Damage": 349,
+                        "Minor Headshot Damage": 578
+                    },
+                    {
+                        "Archetype": "Aggressive",
+                        "Firerate": 450,
+                        "Boss Bodyshot Damage":  243,
+                        "Major Bodyshot Damage": 255,
+                        "Minor Bodyshot Damage": 360,
+                        "Minor Headshot Damage": 610
+                    },
+                    {
+                        "Archetype": "Adaptive",
+                        "Firerate": 390,
+                        "Boss Bodyshot Damage":  298,
+                        "Major Bodyshot Damage": 312,
+                        "Minor Bodyshot Damage": 442,
+                        "Minor Headshot Damage": 705
+                    },
+                    {
+                        "Archetype": "High Impact",
+                        "Firerate": 360,
+                        "Boss Bodyshot Damage":  344,
+                        "Major Bodyshot Damage": 361,
+                        "Minor Bodyshot Damage": 511,
+                        "Minor Headshot Damage": 816
+                    }
+                ]
+            },
+            "Scout Rifle":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Rapid Fire",
+                        "Firerate": 260,
+                        "Boss Bodyshot Damage":  559,
+                        "Major Bodyshot Damage": 559,
+                        "Minor Bodyshot Damage": 742,
+                        "Minor Headshot Damage": 1258
+                    },
+                    {
+                        "Archetype": "Lightweight",
+                        "Firerate": 200,
+                        "Boss Bodyshot Damage":  620,
+                        "Major Bodyshot Damage": 620,
+                        "Minor Bodyshot Damage": 823,
+                        "Minor Headshot Damage": 1443
+                    },
+                    {
+                        "Archetype": "Precision",
+                        "Firerate": 180,
+                        "Boss Bodyshot Damage":  691,
+                        "Major Bodyshot Damage": 691,
+                        "Minor Bodyshot Damage": 917,
+                        "Minor Headshot Damage": 1466
+                    },
+                    {
+                        "Archetype": "High Impact",
+                        "Firerate": 150,
+                        "Boss Bodyshot Damage":  777,
+                        "Major Bodyshot Damage": 777,
+                        "Minor Bodyshot Damage": 1442,
+                        "Minor Headshot Damage": 2531
+                    }
+                ]
+            },
+            "Hand Cannon":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Precision",
+                        "Firerate": 180,
+                        "Boss Bodyshot Damage":  773,
+                        "Major Bodyshot Damage": 832,
+                        "Minor Bodyshot Damage": 1264,
+                        "Minor Headshot Damage": 1896
+                    },
+                    {
+                        "Archetype": "Adaptive",
+                        "Firerate": 140,
+                        "Boss Bodyshot Damage":  945,
+                        "Major Bodyshot Damage": 1018,
+                        "Minor Bodyshot Damage": 1547,
+                        "Minor Headshot Damage": 2320
+                    },
+                    {
+                        "Archetype": "Aggressive",
+                        "Firerate": 120,
+                        "Boss Bodyshot Damage":  1016,
+                        "Major Bodyshot Damage": 1094,
+                        "Minor Bodyshot Damage": 1663,
+                        "Minor Headshot Damage": 2657
+                    }
+                ]
+            }
+        },
+            "Bow":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Lightweight",
+                        "DrawTime": 612,
+                        "Boss Bodyshot Damage":  1955,
+                        "Major Bodyshot Damage": 2476,
+                        "Minor Bodyshot Damage": 3257,
+                        "Minor Headshot Damage": 5205
+                    },
+                    {
+                        "Archetype": "Precision",
+                        "DrawTime": 684,
+                        "Boss Bodyshot Damage":  2220,
+                        "Major Bodyshot Damage": 2812,
+                        "Minor Bodyshot Damage": 3700,
+                        "Minor Headshot Damage": 5550
+                    }
+                ]
+            },
+        "Special": [    
+        ],
+        "Heavy": [     
+        ]
+    }
+}

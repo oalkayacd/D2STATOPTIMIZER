@@ -1,0 +1,36 @@
+Hey! This Spreadsheet contains a near complete collection of all weapon damage data for PvE Activities. 
+It is currently on Game Version 4.0.0.2 - Witch Queen Updated!
+
+
+Things to take note of on how these numbers are gathered
+
+"1. Numbers are gathered at max light  VS Kali. Note that we have far exceeded the activities max light, so no difference occurs at higher light levels."
+"2. Kali has a 2x weakspot on her head. This means that any damage directly to the head, such as a bullet, or the impact of a grenade (not the explosion), will do 2x damage. "
+"3. Any buff, whether it be a mod or ability, are not used for our damage values"
+"4. To the far right of the sheet, are some notes about the weapon itself. Such as making note on the inclusion of Headshot damage values for grenade launchers, and when to actually consider them in a raid. Or how OBP is listed on the sheet"
+
+
+
+"Feel free to contact me on Reddit via DM for anything related to this document. /user/IAMADragonAMAA/. Or on Discord - SkyWarrior#0001 (you can just message me on this, don't add pls)"
+And a thanks to /u/Rhynocerous for the help in the formatting of this sheet. 
+
+
+
+
+
+Reload Calculation Information
+"1. Recorded by using a 1ms macro to fire-->reload. Reload overrides practically all firing actions, and will start reloading the same frame as it fires"
+"2. Frame 1 of magazine going down by 1 indicates a reload has been started. By holding down fire at this point, the gun will shoot the moment the game says it's ready to fire - this can even override the end of the reload animation itself"
+"3. This time represents our ""Base reload time""."
+
+
+
+
+
+"Note that this sheet ONLY Focuses on Raw weapon damages. For values of weapon buffs (such as Rampage, Firing Line, etc.), check out /u/CourtRooom's Modifier Catalogue! "
+Link to it here
+
+
+
+Majority of bosses do not have a 2x Weakspot.
+"Only Kalli, and Shuro Chi possess a 2x weakspot. Riven takes double damage from all sources on her crit spot, because it just does"

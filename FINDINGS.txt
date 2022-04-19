@@ -1,0 +1,46 @@
+ARCHETYPE // MINOR BODYSHOT // MAJOR BODYSHOT // BOSS BODYSHOT // (MINOR HEADSHOT)
+
+AUTOS
+RF Auto: 273 // 273 // 242 (minor HS: 409)
+Adaptive Auto: 290 // 290 // 256 (minor HS: 469)
+Precision Auto: 366 // 366 // 324 (minor HS: 585)
+HI Auto: 447 // 447 // 396  (minor HS: 715) 
+
+PULSES
+450 Aggressive: 360 // 243 // 255 (minor HS: 610) >> fix to 360 // 255 // 243??
+540 RF Pulse: 325 // 230 // 219 (minor HS: 552) 
+450 Lightweight: 349 // 247 // 235 (minor HS: 578)
+340 HI: 511 // 361 // 344  (minor HS: 816)
+390 Adaptive 442 // 312 // 298 (minor HS: 705) 
+
+HC
+Aggressive HC:  1663 // 1094 // 1016 (minor HS: 2657) 
+Precision HC: 1264 // 832 // 773 (minor HS: 1896) 
+Adaptive HC:  1547 // 1018 // 945 (minor HS: 2320) 
+
+SMG
+Prec SMG: 476 // 476 // 383 (minor HS: 667)
+Adaptive SMG: 357 // 357 // 287 (minor HS: 479)
+Lightweight SMG: 327 // 327 // 263 (minor HS: 541)
+Aggressive SMG: 446 // 446 // 359 (minor HS: 643) 
+
+SCOUT
+RF Scout: 742 // 559 // 559 (minor HS: 1258 )
+Lightweight Scout: 823 // 620 // 620 (minor HS: 1443 )
+Precision Scout: 917 // 691 // 691 (minor HS: 1466 )
+HI Scout: 1442 // 777 // 777 (minor HS: 2531 ) 
+
+SIDEARM
+Lightweight Sidearm:  873 // 873 // 751 (minor HS:  1223)
+Aggressive Burst Sidearm: 901 // 901 // 776 (minor HS: 1263 )
+SUROS RF Sidearm: 704 // 704 // 606 (minor HS: 987 )
+Adaptive Sidearm (single shot): 1013 // 1013 // 873 (minor HS: 1421 )
+Precision Sidearm: 1126// 1126// 969(minor HS: 1578 ) 
+Adaptive 3-burst: 563 // 563 // 485 (minor HS: 900 )
+Omolon Adaptive: 563 // 563 // 485 (minor HS: 900 ) 
+
+BOW (non-perfect draw, full draw numbers // on perfect draw precision gets ~+6.5%, lightweight gets ~+2.7% damage bonus)
+Lightweight bow:  3257  // 2476  // 1955  (minor HS: 5205 / 5346pd) 
+Precision: 3700 // 2812 //2220 (minor HS: 5550 / 5905 pd)
+
+
