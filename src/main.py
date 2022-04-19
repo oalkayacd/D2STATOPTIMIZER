@@ -16,7 +16,6 @@ def main():
     reload_stat = int(config.get('Options', 'ReloadStat'))
     assert 0 <= reload_stat and reload_stat <= 100, 'Base Reload Stat not in range 0-100'
     # Read default estimate value for RDScap
-    DefaultCapRDS = float(config.get('Options', 'DefaultCapRDS'))
     AppliedRDS = float(config.get('Options', 'AppliedRDS'))
 
     # reload_stat < 10 does not affect animation speed
@@ -37,10 +36,6 @@ def main():
         reload_c = reload_data['Primary'][weapon_type].get('c')
         RDSCap = reload_data['Primary'][weapon_type].get('RDScap')
         TimeForAmmo = reload_data['Primary'][weapon_type].get('TimeForAmmo')
-
-        # Check for missing RDSCap values, use default from config if none found
-        if(RDSCap == None):
-            RDSCap = DefaultCapRDS
 
         # Calculate reload and cap the reload speed up to 100 reload stat with RDSCap
         reload_in_s = calcReload(reload_a, reload_b, reload_c, reload_stat) * AppliedRDS
