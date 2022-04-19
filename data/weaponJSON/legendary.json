@@ -262,9 +262,9 @@
                     }
                 ]
             },
-        "Special": [    
-        ],
-        "Heavy": [     
-        ]
+        "Special": { 
+        },
+        "Heavy": {     
+        }
     }
 }
