@@ -163,7 +163,7 @@ def main():
                 if(int(config.get('Options', 'FullAuto'))) :
                     firerate = firerate * 1.1   
 
-            table_row.append(str(firerate)+ " rpm")    
+            table_row.append(str("%.2f" % round(firerate, 2))+ " rpm")
 
             # Get damage numbers
             boss_body   = archetype.get('Boss Bodyshot Damage')
