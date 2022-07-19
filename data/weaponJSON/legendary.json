@@ -301,7 +301,8 @@
                         "Major Bodyshot Damage": 7488,
                         "Minor Bodyshot Damage": 8316,
                         "Minor Headshot Damage": 9148,
-                        "Magsize": 7
+                        "Magsize": 7,
+                        "Reserves": 24
                     },
                     {
                         "Archetype": "Lightweight",
@@ -310,7 +311,8 @@
                         "Major Bodyshot Damage": 10980,
                         "Minor Bodyshot Damage": 12192,
                         "Minor Headshot Damage": 13411,
-                        "Magsize": 6
+                        "Magsize": 6,
+                        "Reserves": 15
                     },
                     {
                         "Archetype": "Precision",
@@ -319,7 +321,8 @@
                         "Major Bodyshot Damage": 11424,
                         "Minor Bodyshot Damage": 12696,
                         "Minor Headshot Damage": 13966,
-                        "Magsize": 6
+                        "Magsize": 6,
+                        "Reserves": 18
                     },
                     {
                         "Archetype": "Precision Slug",
@@ -328,7 +331,8 @@
                         "Major Bodyshot Damage": 8143,
                         "Minor Bodyshot Damage": 9047,
                         "Minor Headshot Damage": 15832,
-                        "Magsize": 6
+                        "Magsize": 6,
+                        "Reserves": 17
                     },
                     {
                         "Archetype": "Aggressive",
@@ -337,7 +341,8 @@
                         "Major Bodyshot Damage": 13200,
                         "Minor Bodyshot Damage": 14808,
                         "Minor Headshot Damage": 16289,
-                        "Magsize": 4
+                        "Magsize": 4,
+                        "Reserves": 16
                     }
                 ]
             } 

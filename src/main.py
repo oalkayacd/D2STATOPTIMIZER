@@ -19,11 +19,8 @@ def main():
     # Read applied RDS
     AppliedRDS = float(config.get('Options', 'AppliedRDS'))
 
-    # Read number of reloads performed to obtain average DPS for primaries
+    # Read number of primary reloads performed to obtain average DPS for primaries
     NumOfPrimaryReloads = int(config.get('Options', 'NumOfPrimaryReloads'))
-
-    # Read number of reloads performed to obtain average DPS for specials
-    NumOfSpecialReloads = int(config.get('Options', 'NumOfSpecialReloads'))
 
     # reload_stat < 10 does not affect animation speed (check if this still holds in S17)
     if(reload_stat < 10):
@@ -159,13 +156,10 @@ def main():
                 if(int(config.get('Options', 'AssaultMag'))):
                     if (archetype.get('Archetype') == "Lightweight"):
                         firerate = firerate + 10
-                        print("LW")
                     elif(archetype.get('Archetype') == "Rapid Fire"):
                         firerate = firerate + 0
-                        print("RP")
                     else:
                         firerate = firerate + 5         
-                        print("else")
                 if(int(config.get('Options', 'FullAuto'))) :
                     if(archetype.get('Archetype') == "Precision" or archetype.get('Archetype') == "Aggressive"):
                         firerate = firerate * 1.1  
@@ -178,6 +172,7 @@ def main():
             minor_body  = archetype.get('Minor Bodyshot Damage')
             minor_head  = archetype.get('Minor Headshot Damage')
             magsize = archetype.get('Magsize')
+            reserves = archetype.get("Reserves")
 
             # Headshot mult
             hs_mult = minor_head / minor_body 
@@ -202,7 +197,7 @@ def main():
             table_row.append(str("%.2f" % round(reload_cap_in_s * TimeForAmmo, 2))) 
 
             # Time to empty 1 mag
-            one_mag_time = timeToEmptyOneMag(magsize, firerate, weapon_type)  # firerate = drawrate for bows
+            one_mag_time = timeToEmptyOneMag(magsize, firerate, weapon_type) 
             table_row.append(str("%.2f" % round(one_mag_time, 2)))
 
             # One mag headshot dmg for minor, major, boss
@@ -218,16 +213,24 @@ def main():
             table_row.append(str("%.1f" % round(one_mag_major_head_dmg / one_mag_time, 1)))
             table_row.append(str("%.1f" % round(one_mag_boss_head_dmg / one_mag_time, 1)))
 
-            # Average DPS over reloads for minor, major, boss
-            avg_time = (NumOfSpecialReloads * reload_in_s) + ((NumOfSpecialReloads + 1) * one_mag_time)
-            table_row.append(str("%.1f" % round(((NumOfSpecialReloads + 1) * one_mag_minor_head_dmg) / avg_time, 1)))
-            table_row.append(str("%.1f" % round(((NumOfSpecialReloads + 1) * one_mag_major_head_dmg) / avg_time, 1)))
-            table_row.append(str("%.1f" % round(((NumOfSpecialReloads + 1) * one_mag_boss_head_dmg)  / avg_time, 1)))
+            # Average DPS over reloads for minor, major, boss (FOR SHOTGUN ONLY)
+            sec_for_bullet = (1/(archetype.get('Firerate')/60))
+            avg_time = one_mag_time + ((reserves - magsize) * max(sec_for_bullet, reload_in_s))
+            table_row.append(str("%.1f" % round(avg_time, 1)))
+            table_row.append(str("%.1f" % round((reserves * minor_head) / avg_time, 1)))
+            table_row.append(str("%.1f" % round((reserves * major_head) / avg_time, 1)))
+            table_row.append(str("%.1f" % round((reserves * boss_head)  / avg_time, 1)))
             special_table.append(table_row)
             print(table_row)
 
+            # Total Damage
+            table_row.append(str("%.1f" % round(reserves * minor_head)))
+            table_row.append(str("%.1f" % round(reserves * major_head)))
+            table_row.append(str("%.1f" % round(reserves * boss_head)))
+
+
     special_df = pd.DataFrame(special_table)
-    special_df.to_csv('data/csv/special_weapons.csv', header=["Weapon Type","Weapon Archetype","RPM / Draw Time/ Charge Time","HS Multiplier", "Minor Body" , "Minor Head", "Major Body" , "Major Head", "Boss Body" , "Boss Head", "Reload Speed", "Reload Speed Cap", "Time For Ammo", "Time For Ammo Cap", "Time To Empty 1-Mag", "1-Mag Minor HS DMG", "1-Mag Major HS DMG", "1-Mag Boss HS DMG", "1-Mag Minor HS DPS", "1-Mag Major HS DPS", "1-Mag Boss HS DPS", "Avg Minor HS DPS", "Avg Major HS DPS", "Avg Boss HS DPS"])
+    special_df.to_csv('data/csv/special_weapons.csv', header=["Weapon Type","Weapon Archetype","RPM / Draw Time/ Charge Time","HS Multiplier", "Minor Body" , "Minor Head", "Major Body" , "Major Head", "Boss Body" , "Boss Head", "Reload Speed", "Reload Speed Cap", "Time For Ammo", "Time For Ammo Cap", "Time To Empty 1-Mag", "1-Mag Minor HS DMG", "1-Mag Major HS DMG", "1-Mag Boss HS DMG", "1-Mag Minor HS DPS", "1-Mag Major HS DPS", "1-Mag Boss HS DPS", "Time to Empty Reserves","Avg Minor HS DPS", "Avg Major HS DPS", "Avg Boss HS DPS", "Total Minor Head", "Total Major Head", "Total Boss Head"])
 
     
     return 0
