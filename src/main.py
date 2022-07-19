@@ -158,10 +158,13 @@ def main():
                 if(int(config.get('Options', 'AssaultMag'))):
                     if (archetype == "Lightweight"):
                         firerate = firerate + 10
+                    elif(archetype == "Rapid Fire"):
+                        firerate = firerate + 0
                     else:
-                        firerate = firerate + 5    
+                        firerate = firerate + 5         
                 if(int(config.get('Options', 'FullAuto'))) :
-                    firerate = firerate * 1.1   
+                    if(archetype == "Precision" or archetype == "Aggressive"):
+                        firerate = firerate * 1.1   
 
             table_row.append(str("%.2f" % round(firerate, 2))+ " rpm")
 
