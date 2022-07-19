@@ -151,20 +151,24 @@ def main():
             table_row.append(weapon_type)
             table_row.append(archetype.get('Archetype'))
 
-            # Get firerate and consider config options for shotguns
+            # Get firerate
             firerate = archetype.get('Firerate')
 
+            # Firerate modification options for shotguns
             if(weapon_type == "Shotgun"):
                 if(int(config.get('Options', 'AssaultMag'))):
-                    if (archetype == "Lightweight"):
+                    if (archetype.get('Archetype') == "Lightweight"):
                         firerate = firerate + 10
-                    elif(archetype == "Rapid Fire"):
+                        print("LW")
+                    elif(archetype.get('Archetype') == "Rapid Fire"):
                         firerate = firerate + 0
+                        print("RP")
                     else:
                         firerate = firerate + 5         
+                        print("else")
                 if(int(config.get('Options', 'FullAuto'))) :
-                    if(archetype == "Precision" or archetype == "Aggressive"):
-                        firerate = firerate * 1.1   
+                    if(archetype.get('Archetype') == "Precision" or archetype.get('Archetype') == "Aggressive"):
+                        firerate = firerate * 1.1  
 
             table_row.append(str("%.2f" % round(firerate, 2))+ " rpm")
 
