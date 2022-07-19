@@ -17,3 +17,10 @@ def timeToEmptyOneMag(magsize, firerate, weapon_type): #firerate used for rpm fo
     # Default case for fully automatic weapons without draw / charge time
     else:
         return (magsize-1)/(firerate/60) #magsize-1 because first shot is fired instantly
+
+# Taken from u/Shrimp276s post
+def readySpeed(handling, modifier):
+    return ((-0.22154 * handling) + 35.51692) * modifier
+
+def stowSpeed(handling, modifier):
+    return ((-0.22154 * handling) + 35.51692) * modifier

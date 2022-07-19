@@ -77,7 +77,7 @@
                         "Major Bodyshot Damage": 327,
                         "Minor Bodyshot Damage": 327,
                         "Minor Headshot Damage": 541,
-                        "Magsize":36
+                        "Magsize":40
                     },
                     {
                         "Archetype": "Adaptive",
@@ -291,7 +291,56 @@
                 ]
             }
         },
-        "Special": { 
+        "Special": {
+            "Shotgun":{
+                "Archetypes":[
+                    {
+                        "Archetype": "Rapid Fire",
+                        "Firerate": 140,
+                        "Boss Bodyshot Damage":  5928,
+                        "Major Bodyshot Damage": 7488,
+                        "Minor Bodyshot Damage": 8316,
+                        "Minor Headshot Damage": 9148,
+                        "Magsize": 7
+                    },
+                    {
+                        "Archetype": "Lightweight",
+                        "Firerate": 80,
+                        "Boss Bodyshot Damage":  8760,
+                        "Major Bodyshot Damage": 10980,
+                        "Minor Bodyshot Damage": 12192,
+                        "Minor Headshot Damage": 13411,
+                        "Magsize": 6
+                    },
+                    {
+                        "Archetype": "Precision",
+                        "Firerate": 65,
+                        "Boss Bodyshot Damage":  9120,
+                        "Major Bodyshot Damage": 11424,
+                        "Minor Bodyshot Damage": 12696,
+                        "Minor Headshot Damage": 13966,
+                        "Magsize": 6
+                    },
+                    {
+                        "Archetype": "Precision Slug",
+                        "Firerate": 65,
+                        "Boss Bodyshot Damage":  6503,
+                        "Major Bodyshot Damage": 8143,
+                        "Minor Bodyshot Damage": 9047,
+                        "Minor Headshot Damage": 15832,
+                        "Magsize": 6
+                    },
+                    {
+                        "Archetype": "Aggressive",
+                        "Firerate": 55,
+                        "Boss Bodyshot Damage":  10644,
+                        "Major Bodyshot Damage": 13200,
+                        "Minor Bodyshot Damage": 14808,
+                        "Minor Headshot Damage": 16289,
+                        "Magsize": 4
+                    }
+                ]
+            } 
         },
         "Heavy": {     
         }
