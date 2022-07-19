@@ -1,6 +1,5 @@
 ## General Info
-- All Base Damage numbers are damage adjusted Kalli bodyshot damage numbers from Damage Chart Madness by SkyWarrior#0001 on Discord.
-- Major / Minor damage scaling and Headshot modifiers are manually tested.
+- All damage numbers obtained using energy weapons.
 - Reload speed calculations are performed using the Reload Sheet 2: Electric Boogaloo by Sereni#8012 inspired by twitter.com/VanHolden304's reload info spreadsheet.
 
 ## Reload Speed, What Stacks With What?
@@ -11,3 +10,15 @@
 
 ## Time for Ammo
 - Time until the ammo count updates during the reload. Assume 0.9 for bows.
+
+## Draw and Stow Speed
+- Taken from u/Shrimp276s post https://www.reddit.com/r/DestinyTheGame/comments/od5irh/ever_wondered_how_handling_works_in_destiny/
+
+## To-Do and Sidenotes:
+- Using 1.1 crit modifier for pellet shotguns and 1.75 crit modifier for slugs across all enemy types.
+- Currently using full auto config option only on aggressive and precision shotguns. 
+- Rapid fire frame shotguns don't get assault mag, therefore the config has no effect.
+- Shotguns use a separate number of reloads compared to other special weapons, since shotguns get reloaded one bullet at a time.
+- Shotgun single reload assumes shotgun RoF > time for single reload
+- Does rapid fire frame intrinsic affect fire rates?
+- Check bow DPS correctness.

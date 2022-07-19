@@ -1,0 +1,25 @@
+DPS Table:
+- explanation on data collection
+- find a way to represent that much data efficiently with dropdown menus etc.
+- HS percentage setting, reload speed / RDS adjustability 
+- optional: graph to show hs percentage to dps numbers
+- explanation of how it is calculated 
+
+Handling Calculator:
+- nice ui, simple, considers handling modifiers
+- explanation of how it is calculated 
+
+Reload Calculator:
+- simple ui, considers RDS
+- explanation of how it is calculated 
+
+DPS Calculator:
+- like logitech macro software
+- 3 moves: reload swap shoot
+- can also consider unoptimal swaps after reloads TIMEFORAMMO
+- consider the following: cant reload when full, can not shoot when empty etc.
+
+Website deployment:
+- JS
+- React?
+
